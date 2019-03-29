@@ -1,0 +1,23 @@
+html,body,div,ol,ul,h1,h2,h3,h4,h5,h6,img,a,p,strong,span,dl,dt,dd,input{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*清除浮动*/
+.clearfix:after{
+	content: '';
+	clear: both;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	display: block;
+}
+.clearfix{
+	zoom: 1;	
+}
